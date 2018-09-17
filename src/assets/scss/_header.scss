@@ -1,0 +1,15 @@
+.header-nav {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    background-color: $base-color;
+    ul {
+        width: 20%;
+    }
+
+    li {
+        padding: 7%;
+        display: inline-block;
+    }
+}
+

@@ -1,0 +1,33 @@
+
+/*IMPORTS CSS RESET*/
+@import "../scss/resets";
+
+/*IMPORTS VARIABLES*/
+@import "../scss/variables";
+
+/*IMPORTS HEADER: (NAV, HERO)*/
+@import "../scss/header";
+
+/*IMPORTS SLIDER*/
+@import "../scss/slider";
+
+/*IMPORTS INDEX */
+@import "../scss/index";
+
+/*IMPORTS FOOTER*/
+@import "../scss/footer";
+
+/* UNIVERAL STYLES */
+* {
+    box-sizing: border-box;
+}
+
+body, a {
+    color: $font1-color;
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+
+}
