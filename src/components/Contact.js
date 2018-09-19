@@ -4,6 +4,7 @@ class Contact extends React.Component {
     state = {
         name: "",
         email: "",
+        subject: "",
         message: "",
     };
     change = e => {
@@ -30,7 +31,7 @@ class Contact extends React.Component {
       };
       render() {
         return (
-            <div>
+            <div className="contact-container">
                 <h1>Contact</h1>
                 <form className="contact" action="#" method="GET" name="Contact">
                     <label for="name">Name</label>
@@ -63,14 +64,18 @@ class Contact extends React.Component {
                         <textarea
                         id="message"
                         name="message"
+                        onChange={e => this.change(e)}
                         />
                     </div>
                     <div>
                     <button onClick={e => this.onSubmit(e)}>Submit</button>
                     </div>
                 </form>
-                <p>Phone: 704-433-2312</p>
-                <p>E-mail: fullstock@gmail.com</p>
+                <div className="info">
+                    <p>Phone: 704-433-2312</p>
+                    <p>E-mail: fullstock@gmail.com</p>   
+                </div>
+                
             </div>
             
         );

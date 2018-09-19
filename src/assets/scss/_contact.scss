@@ -1,0 +1,47 @@
+.contact-container {
+    display: grid;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr;
+
+    h1, .info {
+        margin-left: 20px;
+    }
+    
+    form{
+        order: 1;
+        margin: 20px;
+    }
+
+    label, button {
+        letter-spacing: .2rem;
+    }
+    input, textarea, button {
+        border: 1px solid $font1-color;
+        width: 100%;
+        margin: 8px 0;
+    }
+    input {
+        padding: 12px 20px;
+    }
+    textarea {
+        height:120px;
+        resize: none;
+    }
+
+    button {
+        color: $base-color;
+        background-color: $font1-color;
+        margin-top: 2%;
+        padding: 28px 12px;
+        height: 20px;
+        line-height: 5px;
+        cursor: pointer;
+        
+    }
+
+    .info {
+        // grid-row: 1/4;
+        // grid-column: 3;
+    }
+}
+
