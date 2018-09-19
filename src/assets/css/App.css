@@ -427,6 +427,56 @@ ul {
   display: inline-block;
 }
 
+/*IMPORTS CONTACT*/
+.contact-container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+}
+
+.contact-container h1, .contact-container .info {
+  margin-left: 20px;
+}
+
+.contact-container form {
+  -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+          order: 1;
+  margin: 20px;
+}
+
+.contact-container label, .contact-container button {
+  letter-spacing: .2rem;
+}
+
+.contact-container input, .contact-container textarea, .contact-container button {
+  border: 1px solid #646d87;
+  width: 100%;
+  margin: 8px 0;
+}
+
+.contact-container input {
+  padding: 12px 20px;
+}
+
+.contact-container textarea {
+  height: 120px;
+  resize: none;
+}
+
+.contact-container button {
+  color: #f4f4f5;
+  background-color: #646d87;
+  margin-top: 2%;
+  padding: 28px 12px;
+  height: 20px;
+  line-height: 5px;
+  cursor: pointer;
+}
+
 /* UNIVERAL STYLES */
 * {
   -webkit-box-sizing: border-box;

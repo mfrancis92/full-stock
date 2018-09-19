@@ -1,13 +1,32 @@
-import React from 'react'
+import React from 'react';
+import DataJSON from "../components/ProductsJSON";
 
-const Products = () => {
-    return(
+class Products extends React.Component{
+    state = {
+        products: DataJSON.Products
+    }
 
-        <div>
-        <h1>Products</h1>
-        </div>
-         
-    )
+    render() {
+        let product = this.state.products.map(product=> {
+            return(
+                <div>
+                    <h2>{product.title}</h2>
+                    <p>{product.price}</p>    
+                </div>    
+            )
+            
+
+        });
+        return(
+
+            <div>
+            <h1>Products</h1>
+            {product}
+            </div>
+            
+        )  
+    }
+    
 }
 
 

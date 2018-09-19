@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
-import "../assets/css/App.css";
 import banner1 from "../assets/imgs/banner1.jpg";
 import banner2 from "../assets/imgs/banner4.jpg";
 import banner3 from "../assets/imgs/banner3.jpg";
@@ -11,7 +10,7 @@ export default class SimpleSlider extends Component {
       dots: false,
       infinite: true,
       autoplay: true,
-      autoplayspeed: 2,
+      autoplayspeed: 2000,
       slidesToShow: 1,
       slidesToScroll: 1,
       fade: true,
@@ -20,13 +19,13 @@ export default class SimpleSlider extends Component {
       <div className="slider-container">
         <Slider {...settings}>
           <div>
-            <img src ={banner1} className="banner" alt = "" />
+            <img src ={banner1} className="banner" alt = "Yeezy Orginals banner" />
           </div>
           <div>
-            <img src ={banner2} className="banner" alt = "" />
+            <img src ={banner2} className="banner" alt = "Off-white banner" />
           </div>
           <div>
-            <img src={banner3} className="banner" alt = "" />
+            <img src={banner3} className="banner" alt = "Adidas Boost banner" />
           </div>
         </Slider>
       </div>
