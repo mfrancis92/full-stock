@@ -10,8 +10,9 @@ class Products extends React.Component{
         let product = this.state.products.map(product=> {
             return(
                 <div>
+                    {/* <img src={product.productImage} />
                     <h2>{product.title}</h2>
-                    <p>{product.price}</p>    
+                    <p>{product.price}</p>     */}
                 </div>    
             )
             

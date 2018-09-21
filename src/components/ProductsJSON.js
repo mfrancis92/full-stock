@@ -7,8 +7,8 @@ const Products = {
 
                 productType:"shoes",
                 productBrand:"off-white",
-                productImage:"",
-                price: "750",
+                productImage:"/img/products/shoe1.jpeg",
+                price: "$750",
                 description : "Inspired by Michael Jordan’s alma mater, the Off-White x Air Jordan 1 Retro High OG ‘UNC’ carries a classic two-tone composition, filtered through Virgil Abloh’s unique design prism.",
             },
             {
@@ -17,8 +17,8 @@ const Products = {
 
                 productType:"shoes",
                 productBrand:"off-white",
-                productImage:"",
-                price: "2250",
+                productImage:"/img/products/shoe2.jpeg",
+                price: "$2250",
                 description: "Created by designer Virgil Abloh, the Air Jordan 1 x OFF-WHITE comes in the classic Chicago colorway. Some of the sneakers' half-finished features include a Swoosh connected to the shoe with visible blue stitching, 'Air' printed on the midsole, and an OFF-WHITE zip tie on the collar.",
             },
             {
@@ -27,8 +27,8 @@ const Products = {
 
                 productType:"shoes",
                 productBrand:"off-white",
-                productImage:"",
-                price: "585",
+                productImage:"/img/products/shoe3.jpeg",
+                price: "$585",
                 description: "The OFF-WHITE x Air VaporMax ‘Part 2’ features a black Flyknit upper with matching laces and a Swoosh logo accented by a red zip tie.",
             },
             {
@@ -37,8 +37,8 @@ const Products = {
 
                 productType:"shoes",
                 productBrand:"yeezy",
-                productImage:"",
-                price: "250",
+                productImage:"/img/products/shoe4.jpeg",
+                price: "$250",
                 description: "The minimalist silhouette features distinct center stitching on a reverse Primeknit upper, with the signature ‘SPLY-350’ inscription now printed on the interior side. The heel tab remains, finished in a bright yellow hue that matches the knitted upper, rope laces, and Boost-infused midsole.",
             },
             {
@@ -47,8 +47,8 @@ const Products = {
 
                 productType:"shoes",
                 productBrand:"yeezy",
-                productImage:"",
-                price: "750",
+                productImage:"/img/products/shoe5.jpeg",
+                price: "$750",
                 description: "The sneaker’s retro-inspired lines worked in tandem with a chunky silhouette reminiscent of an earlier era. A mesh base is finished in grey on the quarter panels and bright blue and teal on the forefoot. Suede overlays arrive on the toe and heel accented grey leather eyestays. Other details include neon green laces, a bulky white midsole, and pops of black and bright orange.",
             },
             {
@@ -57,8 +57,8 @@ const Products = {
 
                 productType:"shoes",
                 productBrand:"yeezy",
-                productImage:"",
-                price: "250",
+                productImage:"/img/products/shoe6.jpeg",
+                price: "$250",
                 description: "The retro-inspired silhouette counterbalances its bulky form with a sleek, all-black design. What sets this colorway apart from the standard triple-black finish is a singular use of tone – it’s a semi-faded black that coats the combination mesh and suede upper, as opposed to the pitch-black variety that’s more common in the sneaker firmament.",
             },
             {
@@ -67,8 +67,8 @@ const Products = {
 
                 productType:"shoes",
                 productBrand:"yeezy",
-                productImage:"",
-                price: "800",
+                productImage:"/img/products/shoe7.jpeg",
+                price: "$800",
                 description: "Released on December 19, 2015, as the second colorway of the Yeezy Boost 750 line, the ‘Black’ sneaker features a full suede upper, perforated vamp, and ankle zipper.",
             },
             {
@@ -77,8 +77,8 @@ const Products = {
 
                 productType:"shirts",
                 productBrand:"off-white",
-                productImage:"",
-                price: "465",
+                productImage:"/img/products/shirt1.jpg",
+                price: "$465",
                 description: "",
             },
             {
@@ -87,8 +87,8 @@ const Products = {
 
                 productType:"shirts",
                 productBrand:"off-white",
-                productImage:"",
-                price: "258",
+                productImage:"/img/products/shirt2.jpg",
+                price: "$258",
                 description: "",
             },
             {
@@ -97,8 +97,8 @@ const Products = {
 
                 productType:"shirts",
                 productBrand:"off-white",
-                productImage:"",
-                price: "655",
+                productImage:"/img/products/shirt3.jpg",
+                price: "$655",
                 description: "Long sleeves shirt featuring classic tartan pattern in tones of red, blue and black. Spread collar. Buttons closure at front and 'CHECK SHIRT' text print at front. Oversize fitting.",
             },
         ]

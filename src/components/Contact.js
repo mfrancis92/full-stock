@@ -32,8 +32,8 @@ class Contact extends React.Component {
       render() {
         return (
             <div className="contact-container">
-                <h1>Contact</h1>
-                <form className="contact" action="#" method="GET" name="Contact">
+                <h1 className="contact-heading">Contact</h1>
+                <form className="contact-form" action="#" method="GET" name="Contact">
                     <label for="name">Name</label>
                     <input
                     id="name"
@@ -71,9 +71,9 @@ class Contact extends React.Component {
                     <button onClick={e => this.onSubmit(e)}>Submit</button>
                     </div>
                 </form>
-                <div className="info">
-                    <p>Phone: 704-433-2312</p>
-                    <p>E-mail: fullstock@gmail.com</p>   
+                <div className="contact-info">
+                    <p className="contact-info-content">Phone: 704-433-2312</p>
+                    <p className="contact-info-content">E-mail: fullstock@gmail.com</p>   
                 </div>
                 
             </div>
