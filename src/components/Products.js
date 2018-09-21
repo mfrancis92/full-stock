@@ -1,5 +1,5 @@
 import React from 'react';
-import DataJSON from "../components/ProductsJSON";
+import DataJSON from "./ProductsJSON";
 
 class Products extends React.Component{
     state = {
