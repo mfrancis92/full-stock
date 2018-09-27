@@ -1,19 +1,25 @@
 import React from 'react';
-import DataJSON from "./ProductsJSON";
+
 
 class Products extends React.Component{
-    state = {
-        products: DataJSON.Products
-    }
-
     render() {
-        let product = this.state.products.map(product=> {
+        let product = this.props.products.map(product=> {
             return(
+<<<<<<< Updated upstream
                 <div>
                     {/* <img src={product.productImage} />
                     <h2>{product.title}</h2>
                     <p>{product.price}</p>
                     <p>{product.description}</p> */}
+=======
+                <div className="product-container">
+                    <div className ="product-card">
+                        <img className ="product-card-img" src={product.productImage} alt="" />
+                        <h2>{product.title}</h2>
+                        <p>{product.description}</p>
+                        <p>{product.price}</p>     
+                    </div>    
+>>>>>>> Stashed changes
                 </div>    
             )
             
@@ -22,8 +28,8 @@ class Products extends React.Component{
         return(
 
             <div>
-            <h1>Products</h1>
-            {product}
+                <h1>Products</h1>
+                {product}
             </div>
             
         )  
