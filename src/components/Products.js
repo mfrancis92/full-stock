@@ -5,25 +5,21 @@ class Products extends React.Component{
     render() {
         let product = this.props.products.map(product=> {
             return(
-
-
-                <div className="product-container">
                     <div className ="product-card">
                         <img className ="product-card-img" src={product.productImage} alt="" />
-                        <h2>{product.title}</h2>
+                        <h2 className ="product-card-title">{product.title}</h2>
                         <p>{product.description}</p>
                         <p>{product.price}</p>     
                     </div>    
-                </div>    
             )
-            
-
         });
         return(
 
-            <div>
+            <div className ="product-container">
                 <h1>Products</h1>
+                <div className="product-cards">
                 {product}
+                </div>
             </div>
             
         )  
