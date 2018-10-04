@@ -21,7 +21,7 @@ class Products extends React.Component{
                 {product}
                 </div>
             </div>
-            
+             
         )  
     }
     
