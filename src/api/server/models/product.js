@@ -1,3 +1,5 @@
+var mongoose = require('mongoose');
+
 var Product = mongoose.model('Product', {
     title: {
         type: String
@@ -18,3 +20,5 @@ var Product = mongoose.model('Product', {
         type: String
     }
 });
+
+module.exports = {Product};
