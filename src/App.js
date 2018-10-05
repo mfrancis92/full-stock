@@ -8,7 +8,7 @@ import Products from "../src/components/Products";
 import Error from "./components/Error";
 import Contact from "./components/Contact";
 import DataJSON from "./components/ProductsJSON";
-import Admin from "./components/Admin";
+// import Admin from "./components/Admin";
 class App extends Component {
   constructor() {
     super();
